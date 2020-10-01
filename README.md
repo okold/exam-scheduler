@@ -6,7 +6,7 @@ The classic exam scheduling problem, implemented in Java, Prolog, and Haskell fo
 
 ## Prolog
 - I'm satisfied with this solution, however there are some edge cases that don't get handled properly.
-- The program doesn't handle blank empty lines at the end of the text.
+- The program doesn't handle blank empty lines at the end of the text, so I've included modified versions of the room and course files in the prolog folder. The empty rooms file (rooms2), will fail every time.
 
 ## Haskell
 - The requirements for IO got significantly relaxed due to the pandemic, so we didn't need to implement reading from files. Instead of the sample files in the sample_inputs folder, the program uses the CourseData and RoomData types within their respective files, which correspond to each room and course data file in the folder.
